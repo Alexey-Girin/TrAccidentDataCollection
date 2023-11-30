@@ -13,7 +13,7 @@ function process(data, hour) {
     var td1 = document.createElement("td");
     td1.style.border = "1px solid black";
     td1.style.padding = "5px";
-    td1.textContent = "Координаты";
+    td1.textContent = "Coordinates";
     var td2 = document.createElement("td");
     td2.style.border = "1px solid black";
     td2.style.padding = "5px";
@@ -26,7 +26,7 @@ function process(data, hour) {
     var td1 = document.createElement("td");
     td1.style.border = "1px solid black";
     td1.style.padding = "5px";
-    td1.textContent = "Высота";
+    td1.textContent = "Height (m)";
     var td2 = document.createElement("td");
     td2.style.border = "1px solid black";
     td2.style.padding = "5px";
