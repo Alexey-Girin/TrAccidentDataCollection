@@ -30,7 +30,7 @@ function process(data, hour) {
     var td2 = document.createElement("td");
     td2.style.border = "1px solid black";
     td2.style.padding = "5px";
-    td2.textContent = data.elevation + " ì.";
+    td2.textContent = data.elevation + " m";
     tr.appendChild(td1);
     tr.appendChild(td2);
     tbody.appendChild(tr);
